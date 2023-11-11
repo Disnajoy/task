@@ -1,50 +1,131 @@
 /* Disna Joy 8912839 */
-body{
-    height : 100vh;
-    width : 100vw;
-    background-color: hsla(281, 60%, 64%, 0.3);
-    font: normal normal normal 12px/1.5 Verdana, Arial, helvetica, sans-serif;
-    padding: 2em;
-}
-h2{
-    color: #fc0;
-    font-size: 2rem;
-}
-header{
-    background-color: hsl(164, 72%, 51%);
-}
-main{
-    float: left;
-    width: 65vw;
-    height: 65vh;
-    background-color: hsl(93, 49%, 61%);
 
+body
+{
+ height:100vh;
+ width:100vw;
+ background-color: hsla(280,20%, 70%, 0.3);
+ font:normal normal normal 12px/1.5 verdana,Arial,Helvetica,sans-serif;
+ padding:2em;
 }
-aside{
+h1{
+  color:rgb(56, 207, 212)(0, 119, 255) ; 
+  font-size: 20px;
+  }
+h2
+{
+    color: #fc9;
+    font-size:2rem;
+}
+header
+{
+    background-color: hsl(248, 81%, 47%);
+}
+main
+{
+    width:65vw;
+    float:left;
+    background-color: hsl(136, 81%, 55%);
+    
+}
+
+aside
+{
     float: right;
-    width: 25vw;
-    height: 65vh;
-    background-color: hsl(311, 74%, 67%);
+    width:25vw;
+    background-color: hsl(168, 38%, 61%);
+    
+}
+footer
+{
+    clear:both;
+    background-color: hsl(202, 70%, 28%);
+}
 
+.structural
+{
+padding:10px;
+margin:10px;
+border: 2px solid black;
 }
-footer{
-    clear: both;
-    background-color: hsl(158, 39%, 54%);
+#para1
+{
+    color:rgb(76, 174, 138);
 }
-.structural{
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
+#para2
+{
+    color:rgb(189, 11, 31);
 }
-#para1{
-    color: rgb(117, 4, 51)
+aside ul li a:hover
+{
+    color:rgb(109, 109, 229);
 }
-#para2{
-    color: rgb(4, 38, 86);
+footer p
+{
+font-size: .75em;
 }
-a:hover{
-    color: #09c;
+
+
+aside ul
+{
+    list-style-type: square;
 }
-footer p{
-    font-size: .75em;
+ li a
+{
+    color:rgba(39,41,1,0.8);
+    line-height: 2em;
+}
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+    
+}
+nav ul li a
+{
+    border:2px solid indigo;
+    color:indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+nav ul li a:hover
+{
+    border: 2px solid cornsilk;
+    background-color: indigo;
+    color:cornsilk;
+}
+form
+{
+    border: 5px dashed rgb(156, 20, 20);
+    padding: 5px;
+}
+input[type="text"], input[type="email"],input[type="submit"],select,option
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+
+input[type="radio"],input[type="checkbox"]
+{
+    height: 2em;
+    width:2em;;
+}
+
+textarea
+{
+    width: 50%;
+    display: block;
+}
+fieldset
+{
+    border:none;
+}
+select,option,label,legend,input[type="submit"]
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
 }
